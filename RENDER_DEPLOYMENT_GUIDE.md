@@ -1,35 +1,41 @@
-# Step-by-Step Render Deployment Guide
+# Step-by-Step Render Deployment Guide (Totally FREE)
 
-Follow these steps to deploy your application to Render.com. This will ensure your backend (API) works and your data is saved permanently.
+Render sometimes asks for a credit card if you use the "Blueprint" method. To avoid this and deploy for **FREE without a card**, follow these manual steps:
 
-### 1. Create a Render Account
-- Go to [Render.com](https://render.com/) and Sign Up (recommended using GitHub).
+### 1. Go to Render Dashboard
+- Login to [Render.com](https://render.com/).
 
-### 2. Start a New Blueprint Deployment
-- In your Render Dashboard, click the **"New +"** button (usually at the top right).
-- Select **"Blueprint"** from the list.
+### 2. Create a New "Web Service"
+- Click the **"New +"** button.
+- Select **"Web Service"** (NOT Blueprint).
 
 ### 3. Connect your GitHub Repository
-- You will see a list of your GitHub repositories.
-- Find **`BillingApplication10`** and click **"Connect"**.
+- Pick **`BillingApplication10`** from your repository list.
 
-### 4. Name your Service
-- Give it a name like `billing-system`.
-- Render will automatically detect the `render.yaml` file I created in your repository.
-- Click **"Apply"**.
+### 4. Configure the Settings (CRITICAL)
+Fill in these details exactly:
 
-### 5. Wait for the Build to Finish
-- You will see a black terminal screen showing the "Logs".
-- It will say "Building...", then "Starting server...".
-- Once it's done, you will see a green **"Live"** status at the top left.
+- **Name**: `billing-system`
+- **Region**: (Leave as default)
+- **Branch**: `main`
+- **Root Directory**: (Leave blank)
+- **Runtime**: `Node`
+- **Build Command**: `npm install && npm run build`
+- **Start Command**: `npm start`
+- **Instance Type**: Select **"Free"** (It should say $0/month).
 
-### 6. Open your New App
-- Just below the "Live" status, you will see your new URL (example: `https://billing-system-xxxx.onrender.com`).
-- **Click this link.**
+### 5. Add Environment Variables
+Scroll down to the "Environment Variables" section and click "Add Environment Variable":
+- **Key**: `NODE_ENV`
+- **Value**: `production`
+
+### 6. Deploy!
+- Click **"Create Web Service"**.
 
 ---
 
-### Important Notes:
-- **Discard Netlify**: Once this is live, stop using the Netlify link completely.
-- **First Run**: The first time you open the Render app, my "seeding" logic will automatically copy your items and customers from GitHub to the server's disk.
-- **Saving Data**: Any new items or customers you add on this Render link will be saved permanently.
+### Why this works:
+- By selecting **"Web Service"** manually and picking the **"Free"** plan, Render usually does NOT ask for a credit card.
+- Once the logs say "Live", use the URL provided.
+
+**Note again**: Any data you add while testing on this link will be lost if the server sleeps or restarts, because the Free plan does not include a permanent disk. For testing, this is perfect!
