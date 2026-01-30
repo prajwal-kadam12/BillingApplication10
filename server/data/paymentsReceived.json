@@ -1,0 +1,98 @@
+{
+  "paymentsReceived": [
+    {
+      "id": "pr-1769145323657",
+      "paymentNumber": "78",
+      "date": "2026-01-23",
+      "referenceNumber": "",
+      "customerId": "19",
+      "customerName": "Mr. prajwal kadam",
+      "customerEmail": "",
+      "invoices": [
+        {
+          "invoiceId": "1769145293859",
+          "invoiceNumber": "INV-00054",
+          "invoiceDate": "2026-01-23",
+          "invoiceAmount": 2116,
+          "amountDue": 2116,
+          "paymentAmount": 2116
+        }
+      ],
+      "mode": "cash",
+      "depositTo": "Petty Cash",
+      "amount": 5000,
+      "unusedAmount": 1624,
+      "bankCharges": 0,
+      "tax": "",
+      "taxAmount": 0,
+      "notes": "Payment for INV-00054",
+      "attachments": [],
+      "sendThankYou": false,
+      "status": "PAID",
+      "paymentType": "invoice_payment",
+      "placeOfSupply": "",
+      "descriptionOfSupply": "",
+      "amountInWords": "Indian Rupee Five Thousand Only",
+      "journalEntries": [],
+      "createdAt": "2026-01-23T05:15:23.655Z"
+    },
+    {
+      "id": "pr-1769584217602",
+      "organizationId": "1",
+      "paymentNumber": "79",
+      "date": "2026-01-28",
+      "customerId": "21",
+      "customerName": "abc",
+      "customerEmail": "",
+      "mode": "Bank Transfer",
+      "depositTo": "Petty Cash",
+      "referenceNumber": "",
+      "projectName": "",
+      "bankCharges": 0,
+      "tdsAmount": 0,
+      "taxAccount": "TDS Receivable",
+      "amount": 8997,
+      "unusedAmount": 8997,
+      "notes": "",
+      "sendThankYou": false,
+      "status": "PAID",
+      "placeOfSupply": "03 - Punjab",
+      "invoices": [],
+      "customerSnapshot": {
+        "customerId": "21",
+        "customerName": "abc",
+        "displayName": "abc",
+        "companyName": "abc",
+        "email": "",
+        "phone": "",
+        "billingAddress": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "country": "India",
+          "pincode": ""
+        },
+        "shippingAddress": {
+          "street": "",
+          "city": "",
+          "state": "",
+          "country": "India",
+          "pincode": ""
+        },
+        "gstTreatment": "Registered Business - Regular",
+        "taxPreference": "taxable",
+        "gstin": "",
+        "placeOfSupply": "03 - Punjab",
+        "pan": "",
+        "exemptionReason": "",
+        "currency": "INR",
+        "paymentTerms": "due_on_receipt",
+        "priceList": "",
+        "snapshotDate": "2026-01-28T07:09:59.656Z"
+      },
+      "amountInWords": "Indian Rupee Eight Thousand Nine Hundred Ninety Seven Only",
+      "createdAt": "2026-01-28T07:10:17.602Z"
+    }
+  ],
+  "nextPaymentNumber": 80
+}

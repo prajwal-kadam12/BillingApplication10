@@ -1,0 +1,152 @@
+{
+  "quotes": [
+    {
+      "id": "1769581185271",
+      "quoteNumber": "QT-000026",
+      "referenceNumber": "",
+      "date": "2026-01-28",
+      "expiryDate": "",
+      "customerId": "20",
+      "customerName": "praj tech",
+      "billingAddress": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "country": "India",
+        "pincode": ""
+      },
+      "shippingAddress": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "country": "India",
+        "pincode": ""
+      },
+      "salesperson": "",
+      "projectName": "",
+      "subject": "",
+      "placeOfSupply": "",
+      "pdfTemplate": "Standard Template",
+      "items": [
+        {
+          "id": "1",
+          "itemId": "1768909122993",
+          "name": "Laptop",
+          "description": "ok ",
+          "quantity": 1,
+          "unit": "",
+          "rate": 15900,
+          "discount": 0,
+          "discountType": "percentage",
+          "tax": 18,
+          "taxName": "GST18",
+          "amount": 15900
+        }
+      ],
+      "subTotal": 15900,
+      "shippingCharges": 0,
+      "tdsType": "",
+      "tdsAmount": 0,
+      "cgst": 1431,
+      "sgst": 1431,
+      "igst": 0,
+      "adjustment": 0,
+      "total": 18762,
+      "customerNotes": "Looking forward for your business.",
+      "termsAndConditions": "",
+      "status": "SENT",
+      "emailRecipients": [],
+      "createdAt": "2026-01-28T06:19:45.271Z",
+      "updatedAt": "2026-01-28T06:19:45.271Z",
+      "createdBy": "Admin User",
+      "activityLogs": [
+        {
+          "id": "1",
+          "timestamp": "2026-01-28T06:19:45.271Z",
+          "action": "created",
+          "description": "Quote created for ₹18,762",
+          "user": "Admin User"
+        }
+      ]
+    },
+    {
+      "id": "1769145271011",
+      "quoteNumber": "QT-000025",
+      "referenceNumber": "123",
+      "date": "2026-01-23",
+      "expiryDate": "2026-01-28",
+      "customerId": "19",
+      "customerName": "Mr. prajwal kadam",
+      "billingAddress": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "country": "India",
+        "pincode": ""
+      },
+      "shippingAddress": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "country": "India",
+        "pincode": ""
+      },
+      "salesperson": "Sujay",
+      "projectName": "",
+      "subject": "do work",
+      "placeOfSupply": "",
+      "pdfTemplate": "Standard Template",
+      "items": [
+        {
+          "id": "1",
+          "itemId": "1768892642231",
+          "name": "mouse",
+          "description": "best price",
+          "quantity": 1,
+          "unit": "",
+          "rate": 2000,
+          "discount": 10,
+          "discountType": "percentage",
+          "tax": 12,
+          "taxName": "GST12",
+          "amount": 1800
+        }
+      ],
+      "subTotal": 1800,
+      "shippingCharges": 100,
+      "tdsType": "",
+      "tdsAmount": 0,
+      "cgst": 108,
+      "sgst": 108,
+      "igst": 0,
+      "adjustment": 0,
+      "total": 2116,
+      "customerNotes": "Looking forward for your business.",
+      "termsAndConditions": "",
+      "status": "CONVERTED",
+      "emailRecipients": [],
+      "createdAt": "2026-01-23T05:14:31.011Z",
+      "updatedAt": "2026-01-23T05:14:53.858Z",
+      "createdBy": "Admin User",
+      "activityLogs": [
+        {
+          "id": "1",
+          "timestamp": "2026-01-23T05:14:31.011Z",
+          "action": "created",
+          "description": "Quote created for ₹2,116",
+          "user": "Admin User"
+        },
+        {
+          "id": "2",
+          "timestamp": "2026-01-23T05:14:53.858Z",
+          "action": "converted",
+          "description": "Converted to Invoice INV-00054",
+          "user": "Admin User",
+          "link": "/invoices/1769145293859"
+        }
+      ],
+      "convertedTo": "invoice"
+    }
+  ],
+  "nextQuoteNumber": 27
+}

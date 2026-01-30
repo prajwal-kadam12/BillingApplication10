@@ -1,0 +1,293 @@
+{
+  "paymentsMade": [
+    {
+      "id": "pm-1769152122937",
+      "paymentNumber": "PM-00068",
+      "vendorId": "8",
+      "vendorName": "prajwal kadam",
+      "gstTreatment": "",
+      "sourceOfSupply": "",
+      "destinationOfSupply": "",
+      "descriptionOfSupply": "",
+      "paymentAmount": 20000,
+      "reverseCharge": false,
+      "tds": "",
+      "paymentDate": "2026-01-23",
+      "paymentMode": "Cash",
+      "paidThrough": "Petty Cash",
+      "depositTo": "prepaid_expenses",
+      "reference": "",
+      "notes": "ok",
+      "billPayments": {
+        "1769152029404": {
+          "billId": "1769152029404",
+          "billNumber": "27",
+          "billAmount": 23600,
+          "amountPaid": 20000
+        }
+      },
+      "paymentType": "bill_payment",
+      "paymentSource": "record_payment",
+      "status": "PAID",
+      "createdAt": "2026-01-23T07:08:42.934Z",
+      "updatedAt": "2026-01-23T07:08:42.934Z"
+    },
+    {
+      "id": "pm-1769492542508",
+      "paymentNumber": "PM-00069",
+      "vendorId": "9",
+      "vendorName": "Cybaem Technology",
+      "gstTreatment": "",
+      "sourceOfSupply": "",
+      "destinationOfSupply": "",
+      "descriptionOfSupply": "",
+      "paymentAmount": 520,
+      "reverseCharge": false,
+      "tds": "",
+      "paymentDate": "2026-01-27",
+      "paymentMode": "Cash",
+      "paidThrough": "Petty Cash",
+      "depositTo": "prepaid_expenses",
+      "reference": "",
+      "notes": "Payment for Bill #29",
+      "billPayments": {
+        "1769492486606": {
+          "billId": "1769492486606",
+          "billNumber": "29",
+          "billAmount": 16520,
+          "amountPaid": 520
+        }
+      },
+      "paymentType": "bill_payment",
+      "paymentSource": "record_payment",
+      "status": "PAID",
+      "createdAt": "2026-01-27T05:42:22.502Z",
+      "updatedAt": "2026-01-27T05:42:22.502Z"
+    },
+    {
+      "id": "pm-1769492752179",
+      "organizationId": "1",
+      "paymentNumber": "PM-00070",
+      "vendorId": "9",
+      "vendorName": "Cybaem Technology",
+      "gstTreatment": "Registered Business - Composition",
+      "sourceOfSupply": "[AR] - Arunachal Pradesh",
+      "destinationOfSupply": "[AR] - Arunachal Pradesh",
+      "descriptionOfSupply": "",
+      "paymentAmount": 16000,
+      "reverseCharge": false,
+      "tds": "",
+      "paymentDate": "2026-01-27",
+      "paymentMode": "cash",
+      "paidThrough": "petty_cash",
+      "depositTo": "prepaid_expenses",
+      "reference": "",
+      "notes": "",
+      "billPayments": {
+        "1769492486606": {
+          "billId": "1769492486606",
+          "billNumber": "29",
+          "billAmount": 16520,
+          "amountPaid": 16000
+        }
+      },
+      "paymentType": "bill_payment",
+      "status": "PAID",
+      "createdAt": "2026-01-27T05:45:52.179Z",
+      "updatedAt": "2026-01-27T05:45:52.179Z"
+    },
+    {
+      "id": "pm-1769492923685",
+      "organizationId": "1",
+      "paymentNumber": "PM-00071",
+      "vendorId": "9",
+      "vendorName": "Cybaem Technology",
+      "gstTreatment": "Registered Business - Composition",
+      "sourceOfSupply": "[AR] - Arunachal Pradesh",
+      "destinationOfSupply": "[AR] - Arunachal Pradesh",
+      "descriptionOfSupply": "",
+      "paymentAmount": 789,
+      "reverseCharge": false,
+      "tds": "",
+      "paymentDate": "2026-01-27",
+      "paymentMode": "cash",
+      "paidThrough": "petty_cash",
+      "depositTo": "prepaid_expenses",
+      "reference": "",
+      "notes": "paid ",
+      "billPayments": {
+        "1769492475062": {
+          "billId": "1769492475062",
+          "billNumber": "28",
+          "billAmount": 16520,
+          "amountPaid": 789
+        }
+      },
+      "paymentType": "bill_payment",
+      "status": "PAID",
+      "createdAt": "2026-01-27T05:48:43.685Z",
+      "updatedAt": "2026-01-27T05:48:43.685Z"
+    },
+    {
+      "id": "pm-1769493051885",
+      "organizationId": "1",
+      "paymentNumber": "PM-00072",
+      "vendorId": "9",
+      "vendorName": "Cybaem Technology",
+      "gstTreatment": "Registered Business - Composition",
+      "sourceOfSupply": "[AR] - Arunachal Pradesh",
+      "destinationOfSupply": "[AR] - Arunachal Pradesh",
+      "descriptionOfSupply": "",
+      "paymentAmount": 231.99,
+      "reverseCharge": false,
+      "tds": "",
+      "paymentDate": "2026-01-27",
+      "paymentMode": "cash",
+      "paidThrough": "petty_cash",
+      "depositTo": "prepaid_expenses",
+      "reference": "",
+      "notes": "",
+      "billPayments": {
+        "1769492475062": {
+          "billId": "1769492475062",
+          "billNumber": "28",
+          "billAmount": 16520,
+          "amountPaid": 231.99
+        }
+      },
+      "paymentType": "bill_payment",
+      "status": "PAID",
+      "createdAt": "2026-01-27T05:50:51.885Z",
+      "updatedAt": "2026-01-27T05:50:51.885Z"
+    },
+    {
+      "id": "pm-1769493128285",
+      "paymentNumber": "PM-00073",
+      "vendorId": "8",
+      "vendorName": "prajwal kadam",
+      "gstTreatment": "",
+      "sourceOfSupply": "",
+      "destinationOfSupply": "",
+      "descriptionOfSupply": "",
+      "paymentAmount": 8640,
+      "reverseCharge": false,
+      "tds": "",
+      "paymentDate": "2026-01-27",
+      "paymentMode": "Cash",
+      "paidThrough": "Petty Cash",
+      "depositTo": "prepaid_expenses",
+      "reference": "",
+      "notes": "Payment for Bill #27",
+      "billPayments": {
+        "1769152029404": {
+          "billId": "1769152029404",
+          "billNumber": "27",
+          "billAmount": 28640,
+          "amountPaid": 8640
+        }
+      },
+      "paymentType": "bill_payment",
+      "paymentSource": "record_payment",
+      "status": "PAID",
+      "createdAt": "2026-01-27T05:52:08.284Z",
+      "updatedAt": "2026-01-27T05:52:08.284Z"
+    },
+    {
+      "id": "pm-1769493593228",
+      "paymentNumber": "PM-00074",
+      "vendorId": "9",
+      "vendorName": "Cybaem Technology",
+      "gstTreatment": "",
+      "sourceOfSupply": "",
+      "destinationOfSupply": "",
+      "descriptionOfSupply": "",
+      "paymentAmount": 14021,
+      "reverseCharge": false,
+      "tds": "",
+      "paymentDate": "2026-01-27",
+      "paymentMode": "Cash",
+      "paidThrough": "Petty Cash",
+      "depositTo": "prepaid_expenses",
+      "reference": "",
+      "notes": "Payment for Bill #28",
+      "billPayments": {
+        "1769492475062": {
+          "billId": "1769492475062",
+          "billNumber": "28",
+          "billAmount": 16520,
+          "amountPaid": 14021
+        }
+      },
+      "paymentType": "bill_payment",
+      "paymentSource": "record_payment",
+      "status": "PAID",
+      "createdAt": "2026-01-27T05:59:53.227Z",
+      "updatedAt": "2026-01-27T05:59:53.227Z"
+    },
+    {
+      "id": "pm-1769494334858",
+      "paymentNumber": "PM-00075",
+      "vendorId": "9",
+      "vendorName": "Cybaem Technology",
+      "gstTreatment": "",
+      "sourceOfSupply": "",
+      "destinationOfSupply": "",
+      "descriptionOfSupply": "",
+      "paymentAmount": 500,
+      "reverseCharge": false,
+      "tds": "",
+      "paymentDate": "2026-01-27",
+      "paymentMode": "Cash",
+      "paidThrough": "Petty Cash",
+      "depositTo": "prepaid_expenses",
+      "reference": "",
+      "notes": "Payment for Bill #28",
+      "billPayments": {
+        "1769492475062": {
+          "billId": "1769492475062",
+          "billNumber": "28",
+          "billAmount": 16520,
+          "amountPaid": 500
+        }
+      },
+      "paymentType": "bill_payment",
+      "paymentSource": "record_payment",
+      "status": "PAID",
+      "createdAt": "2026-01-27T06:12:14.857Z",
+      "updatedAt": "2026-01-27T06:12:14.857Z"
+    },
+    {
+      "id": "pm-1769591683237",
+      "organizationId": "1",
+      "paymentNumber": "PM-00076",
+      "vendorId": "10",
+      "vendorName": "abc  abc",
+      "gstTreatment": "Registered Business - Regular",
+      "sourceOfSupply": "[AP] - Andhra Pradesh",
+      "destinationOfSupply": "[AP] - Andhra Pradesh",
+      "descriptionOfSupply": "",
+      "paymentAmount": 4999.98,
+      "reverseCharge": false,
+      "tds": "",
+      "paymentDate": "2026-01-28",
+      "paymentMode": "cash",
+      "paidThrough": "petty_cash",
+      "depositTo": "prepaid_expenses",
+      "reference": "",
+      "notes": "",
+      "billPayments": {
+        "1769591649592": {
+          "billId": "1769591649592",
+          "billNumber": "33",
+          "billAmount": 45360,
+          "amountPaid": 4999.98
+        }
+      },
+      "paymentType": "bill_payment",
+      "status": "VOIDED",
+      "createdAt": "2026-01-28T09:14:43.237Z",
+      "updatedAt": "2026-01-29T03:38:16.539Z"
+    }
+  ],
+  "nextPaymentNumber": 77
+}

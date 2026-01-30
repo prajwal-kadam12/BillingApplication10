@@ -1,0 +1,197 @@
+{
+  "deliveryChallans": [
+    {
+      "id": "1769505056333",
+      "challanNumber": "DC-00009",
+      "referenceNumber": "",
+      "date": "2026-01-27",
+      "customerId": "19",
+      "customerName": "Mr. prajwal kadam",
+      "challanType": "supply_for_job_work",
+      "billingAddress": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "country": "India",
+        "pincode": ""
+      },
+      "shippingAddress": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "country": "India",
+        "pincode": ""
+      },
+      "placeOfSupply": "",
+      "gstin": "",
+      "items": [
+        {
+          "id": "1",
+          "itemId": "1",
+          "name": "mouse",
+          "description": "best price",
+          "hsnSac": "1006",
+          "quantity": 1,
+          "unit": "pcs",
+          "rate": 2000,
+          "discount": 0,
+          "discountType": "percentage",
+          "tax": 360,
+          "taxName": "GST18",
+          "amount": 2360
+        }
+      ],
+      "subTotal": 2000,
+      "cgst": 180,
+      "sgst": 180,
+      "igst": 0,
+      "adjustment": 0,
+      "total": 2360,
+      "customerNotes": "ok",
+      "termsAndConditions": "",
+      "status": "OPEN",
+      "invoiceStatus": "",
+      "invoiceId": null,
+      "createdAt": "2026-01-27T09:10:56.333Z",
+      "updatedAt": "2026-01-27T09:10:56.333Z",
+      "activityLogs": [
+        {
+          "id": "1",
+          "timestamp": "2026-01-27T09:10:56.333Z",
+          "action": "created",
+          "description": "Delivery challan DC-00009 created",
+          "user": "Admin User"
+        }
+      ]
+    },
+    {
+      "id": "1769582881669",
+      "challanNumber": "DC-00010",
+      "referenceNumber": "",
+      "date": "2026-01-28",
+      "customerId": "20",
+      "customerName": "praj tech",
+      "challanType": "removal_for_own_use",
+      "billingAddress": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "country": "India",
+        "pincode": ""
+      },
+      "shippingAddress": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "country": "India",
+        "pincode": ""
+      },
+      "placeOfSupply": "",
+      "gstin": "",
+      "items": [
+        {
+          "id": "1",
+          "itemId": "1",
+          "name": "Keyboard",
+          "description": "keyboard at 3k",
+          "hsnSac": "1009",
+          "quantity": 1,
+          "unit": "pcs",
+          "rate": 3000,
+          "discount": 0,
+          "discountType": "percentage",
+          "tax": 360,
+          "taxName": "GST12",
+          "amount": 3360
+        }
+      ],
+      "subTotal": 3000,
+      "cgst": 180,
+      "sgst": 180,
+      "igst": 0,
+      "adjustment": 0,
+      "total": 3360,
+      "customerNotes": "",
+      "termsAndConditions": "",
+      "status": "DRAFT",
+      "invoiceStatus": "",
+      "invoiceId": null,
+      "createdAt": "2026-01-28T06:48:01.669Z",
+      "updatedAt": "2026-01-28T06:48:01.669Z",
+      "activityLogs": [
+        {
+          "id": "1",
+          "timestamp": "2026-01-28T06:48:01.669Z",
+          "action": "created",
+          "description": "Delivery challan DC-00010 created",
+          "user": "Admin User"
+        }
+      ]
+    },
+    {
+      "id": "1769583015718",
+      "challanNumber": "DC-00011",
+      "referenceNumber": "",
+      "date": "2026-01-28",
+      "customerId": "21",
+      "customerName": "abc",
+      "challanType": "removal_for_own_use",
+      "billingAddress": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "country": "India",
+        "pincode": ""
+      },
+      "shippingAddress": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "country": "India",
+        "pincode": ""
+      },
+      "placeOfSupply": "",
+      "gstin": "",
+      "items": [
+        {
+          "id": "1",
+          "itemId": "1",
+          "name": "Laptop",
+          "description": "ok ",
+          "hsnSac": "",
+          "quantity": 1,
+          "unit": "pcs",
+          "rate": 15900,
+          "discount": 0,
+          "discountType": "percentage",
+          "tax": 2862,
+          "taxName": "GST18",
+          "amount": 18762
+        }
+      ],
+      "subTotal": 15900,
+      "cgst": 1431,
+      "sgst": 1431,
+      "igst": 0,
+      "adjustment": 0,
+      "total": 18762,
+      "customerNotes": "",
+      "termsAndConditions": "",
+      "status": "DRAFT",
+      "invoiceStatus": "",
+      "invoiceId": null,
+      "createdAt": "2026-01-28T06:50:15.718Z",
+      "updatedAt": "2026-01-28T06:50:15.718Z",
+      "activityLogs": [
+        {
+          "id": "1",
+          "timestamp": "2026-01-28T06:50:15.718Z",
+          "action": "created",
+          "description": "Delivery challan DC-00011 created",
+          "user": "Admin User"
+        }
+      ]
+    }
+  ],
+  "nextChallanNumber": 12
+}

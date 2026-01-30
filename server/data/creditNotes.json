@@ -1,0 +1,140 @@
+{
+  "creditNotes": [
+    {
+      "id": "1769584826281",
+      "creditNoteNumber": "CN-00022",
+      "referenceNumber": "",
+      "date": "2026-01-28",
+      "customerId": "21",
+      "customerName": "abc",
+      "invoiceId": "",
+      "invoiceNumber": "",
+      "reason": "",
+      "salesperson": "",
+      "subject": "",
+      "billingAddress": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "country": "India",
+        "pincode": ""
+      },
+      "gstin": "",
+      "placeOfSupply": "Punjab",
+      "items": [
+        {
+          "id": "1",
+          "itemId": "",
+          "name": "",
+          "description": "",
+          "account": "",
+          "quantity": 1,
+          "rate": 0,
+          "discount": 0,
+          "discountType": "percentage",
+          "tax": 0,
+          "taxName": "none",
+          "amount": 0
+        }
+      ],
+      "subTotal": 0,
+      "shippingCharges": 0,
+      "tdsType": "TDS",
+      "tdsAmount": 0,
+      "cgst": 0,
+      "sgst": 0,
+      "igst": 0,
+      "adjustment": 0,
+      "total": 0,
+      "creditsRemaining": 0,
+      "customerNotes": "",
+      "termsAndConditions": "",
+      "status": "OPEN",
+      "pdfTemplate": "Standard Template",
+      "createdAt": "2026-01-28T07:20:26.281Z",
+      "updatedAt": "2026-01-28T07:20:26.281Z",
+      "createdBy": "Admin User",
+      "activityLogs": [
+        {
+          "id": "1",
+          "timestamp": "2026-01-28T07:20:26.281Z",
+          "action": "created",
+          "description": "Credit Note created for ₹0",
+          "user": "Admin User"
+        }
+      ]
+    },
+    {
+      "id": "1769145403439",
+      "creditNoteNumber": "CN-00021",
+      "referenceNumber": "123",
+      "date": "2026-01-23",
+      "customerId": "19",
+      "customerName": "Mr. prajwal kadam",
+      "invoiceId": "1769145293859",
+      "invoiceNumber": "INV-00054",
+      "reason": "sales_return",
+      "salesperson": "Sujay",
+      "subject": "Credit Note for Invoice #INV-00054",
+      "billingAddress": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "country": "India",
+        "pincode": ""
+      },
+      "gstin": "",
+      "placeOfSupply": "Maharashtra",
+      "items": [
+        {
+          "id": "1",
+          "itemId": "1768892642231",
+          "name": "mouse",
+          "description": "best price",
+          "account": "sales",
+          "quantity": 1,
+          "rate": 2000,
+          "discount": 0,
+          "discountType": "percentage",
+          "tax": 0,
+          "taxName": "none",
+          "amount": 2000
+        }
+      ],
+      "subTotal": 2000,
+      "shippingCharges": 100,
+      "tdsType": "TDS",
+      "tdsAmount": 0,
+      "cgst": 0,
+      "sgst": 0,
+      "igst": 0,
+      "adjustment": 0,
+      "total": 2100,
+      "creditsRemaining": 0,
+      "customerNotes": "",
+      "termsAndConditions": "",
+      "status": "CLOSED",
+      "pdfTemplate": "Standard Template",
+      "createdAt": "2026-01-23T05:16:43.439Z",
+      "updatedAt": "2026-01-23T05:16:43.439Z",
+      "createdBy": "Admin User",
+      "activityLogs": [
+        {
+          "id": "1",
+          "timestamp": "2026-01-23T05:16:43.439Z",
+          "action": "created",
+          "description": "Credit Note created for ₹2,100",
+          "user": "Admin User"
+        },
+        {
+          "id": "2",
+          "timestamp": "2026-01-23T05:17:59.218Z",
+          "action": "credits_applied",
+          "description": "₹2,100 applied to Invoice INV-00055",
+          "user": "Admin User"
+        }
+      ]
+    }
+  ],
+  "nextCreditNoteNumber": 23
+}

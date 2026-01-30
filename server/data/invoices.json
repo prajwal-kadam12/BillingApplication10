@@ -1,0 +1,320 @@
+{
+  "invoices": [
+    {
+      "id": "1769583095623",
+      "organizationId": "1",
+      "invoiceNumber": "INV-00057",
+      "referenceNumber": "",
+      "date": "2026-01-28",
+      "dueDate": "2026-02-27",
+      "customerId": "21",
+      "customerName": "abc",
+      "billingAddress": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "country": "India",
+        "pincode": ""
+      },
+      "shippingAddress": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "country": "India",
+        "pincode": ""
+      },
+      "salesperson": "",
+      "placeOfSupply": "03 - Punjab",
+      "paymentTerms": "Net 30",
+      "items": [],
+      "subTotal": 0,
+      "shippingCharges": 0,
+      "cgst": 0,
+      "sgst": 0,
+      "igst": 0,
+      "adjustment": 0,
+      "total": 0,
+      "amountPaid": 0,
+      "balanceDue": 0,
+      "customerNotes": "",
+      "termsAndConditions": "",
+      "status": "DRAFT",
+      "sourceType": null,
+      "sourceId": null,
+      "sourceNumber": null,
+      "pdfTemplate": "Standard Template",
+      "createdAt": "2026-01-28T06:51:35.623Z",
+      "updatedAt": "2026-01-28T06:51:35.623Z",
+      "createdBy": "Admin User",
+      "payments": [],
+      "activityLogs": [
+        {
+          "id": "1",
+          "timestamp": "2026-01-28T06:51:35.623Z",
+          "action": "created",
+          "description": "Invoice created for ₹0",
+          "user": "Admin User"
+        }
+      ]
+    },
+    {
+      "id": "1769157325822",
+      "organizationId": "1",
+      "invoiceNumber": "INV-00056",
+      "referenceNumber": "",
+      "date": "2026-01-23",
+      "dueDate": "2026-02-22",
+      "customerId": "19",
+      "customerName": "Mr. prajwal kadam",
+      "billingAddress": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "country": "India",
+        "pincode": ""
+      },
+      "shippingAddress": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "country": "India",
+        "pincode": ""
+      },
+      "salesperson": "",
+      "placeOfSupply": "27 - Maharashtra",
+      "paymentTerms": "Net 30",
+      "items": [
+        {
+          "id": "0.8023750750019718",
+          "itemId": "0.8023750750019718",
+          "name": "Keyboard",
+          "description": "keyboard at 3k",
+          "quantity": 1,
+          "unit": "pcs",
+          "rate": 3000,
+          "discount": 0,
+          "discountType": "percentage",
+          "tax": 360,
+          "taxName": "GST12",
+          "amount": 3360
+        }
+      ],
+      "subTotal": 3000,
+      "shippingCharges": 0,
+      "cgst": 180,
+      "sgst": 180,
+      "igst": 0,
+      "adjustment": 0,
+      "total": 3360,
+      "amountPaid": 0,
+      "balanceDue": 3360,
+      "customerNotes": "",
+      "termsAndConditions": "",
+      "status": "PENDING",
+      "sourceType": null,
+      "sourceId": null,
+      "sourceNumber": null,
+      "pdfTemplate": "Standard Template",
+      "createdAt": "2026-01-23T08:35:25.822Z",
+      "updatedAt": "2026-01-23T08:35:25.822Z",
+      "createdBy": "Admin User",
+      "payments": [],
+      "activityLogs": [
+        {
+          "id": "1",
+          "timestamp": "2026-01-23T08:35:25.822Z",
+          "action": "created",
+          "description": "Invoice created for ₹3,360",
+          "user": "Admin User"
+        }
+      ]
+    },
+    {
+      "id": "1769145448936",
+      "organizationId": "1",
+      "invoiceNumber": "INV-00055",
+      "referenceNumber": "",
+      "date": "2026-01-23",
+      "dueDate": "2026-02-22",
+      "customerId": "19",
+      "customerName": "Mr. prajwal kadam",
+      "billingAddress": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "country": "India",
+        "pincode": ""
+      },
+      "shippingAddress": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "country": "India",
+        "pincode": ""
+      },
+      "salesperson": "Sujay",
+      "placeOfSupply": "27 - Maharashtra",
+      "paymentTerms": "Net 30",
+      "items": [
+        {
+          "id": "0.9050663549533394",
+          "itemId": "0.9050663549533394",
+          "name": "Keyboard",
+          "description": "keyboard at 3k",
+          "quantity": 1,
+          "unit": "pcs",
+          "rate": 3000,
+          "discount": 0,
+          "discountType": "percentage",
+          "tax": 360,
+          "taxName": "GST12",
+          "amount": 3360
+        }
+      ],
+      "subTotal": 3000,
+      "shippingCharges": 0,
+      "cgst": 180,
+      "sgst": 180,
+      "igst": 0,
+      "adjustment": 0,
+      "total": 3360,
+      "amountPaid": 3360,
+      "balanceDue": 0,
+      "customerNotes": "",
+      "termsAndConditions": "",
+      "status": "PAID",
+      "sourceType": null,
+      "sourceId": null,
+      "sourceNumber": null,
+      "pdfTemplate": "Standard Template",
+      "createdAt": "2026-01-23T05:17:28.936Z",
+      "updatedAt": "2026-01-23T05:17:59.218Z",
+      "createdBy": "Admin User",
+      "payments": [],
+      "activityLogs": [
+        {
+          "id": "1",
+          "timestamp": "2026-01-23T05:17:28.936Z",
+          "action": "created",
+          "description": "Invoice created for ₹3,360",
+          "user": "Admin User"
+        },
+        {
+          "id": "2",
+          "timestamp": "2026-01-23T05:17:59.218Z",
+          "action": "credits_applied",
+          "description": "Credits of ₹3,360 applied from 2 source(s)",
+          "user": "Admin User"
+        }
+      ],
+      "creditsApplied": [
+        {
+          "id": "ca-1769145479218-55hdn5ms2",
+          "sourceId": "1769145403439",
+          "sourceType": "credit_note",
+          "sourceNumber": "CN-00021",
+          "amount": 2100,
+          "appliedDate": "2026-01-23T05:17:59.218Z",
+          "appliedBy": "Admin User"
+        },
+        {
+          "id": "ca-1769145479218-h4zdrbmeq",
+          "sourceId": "pr-1769145323657",
+          "sourceType": "payment",
+          "sourceNumber": "78",
+          "amount": 1260,
+          "appliedDate": "2026-01-23T05:17:59.218Z",
+          "appliedBy": "Admin User"
+        }
+      ]
+    },
+    {
+      "id": "1769145293859",
+      "invoiceNumber": "INV-00054",
+      "referenceNumber": "123",
+      "date": "2026-01-23",
+      "dueDate": "2026-02-22",
+      "customerId": "19",
+      "customerName": "Mr. prajwal kadam",
+      "billingAddress": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "country": "India",
+        "pincode": ""
+      },
+      "shippingAddress": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "country": "India",
+        "pincode": ""
+      },
+      "salesperson": "Sujay",
+      "placeOfSupply": "",
+      "paymentTerms": "Net 30",
+      "items": [
+        {
+          "id": "1",
+          "itemId": "1768892642231",
+          "name": "mouse",
+          "description": "best price",
+          "quantity": 1,
+          "unit": "",
+          "rate": 2000,
+          "discount": 10,
+          "discountType": "percentage",
+          "tax": 12,
+          "taxName": "GST12",
+          "amount": 1800
+        }
+      ],
+      "subTotal": 1800,
+      "shippingCharges": 100,
+      "cgst": 108,
+      "sgst": 108,
+      "igst": 0,
+      "adjustment": 0,
+      "total": 2116,
+      "amountPaid": 2116,
+      "balanceDue": 0,
+      "customerNotes": "Looking forward for your business.",
+      "termsAndConditions": "",
+      "status": "PAID",
+      "sourceType": "quote",
+      "sourceId": "1769145271011",
+      "sourceNumber": "QT-000025",
+      "pdfTemplate": "Standard Template",
+      "createdAt": "2026-01-23T05:14:53.858Z",
+      "updatedAt": "2026-01-23T05:15:23.655Z",
+      "createdBy": "Admin User",
+      "payments": [
+        {
+          "id": "1769145323655",
+          "date": "2026-01-23T05:15:00.000Z",
+          "amount": 5000,
+          "paymentMode": "cash",
+          "reference": "",
+          "notes": ""
+        }
+      ],
+      "activityLogs": [
+        {
+          "id": "1",
+          "timestamp": "2026-01-23T05:14:53.858Z",
+          "action": "created",
+          "description": "Invoice created from Quote QT-000025",
+          "user": "Admin User"
+        },
+        {
+          "id": "2",
+          "timestamp": "2026-01-23T05:15:23.655Z",
+          "action": "payment_recorded",
+          "description": "Payment of ₹5,000 recorded",
+          "user": "Admin User"
+        }
+      ]
+    }
+  ],
+  "nextInvoiceNumber": 58
+}

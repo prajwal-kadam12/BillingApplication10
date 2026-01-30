@@ -1,0 +1,167 @@
+{
+  "salesOrders": [
+    {
+      "id": "1769595093886",
+      "organizationId": "1",
+      "salesOrderNumber": "SO-00020",
+      "referenceNumber": "",
+      "date": "2026-01-28",
+      "expectedShipmentDate": "",
+      "customerId": "20",
+      "customerName": "praj tech",
+      "billingAddress": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "country": "India",
+        "pincode": ""
+      },
+      "shippingAddress": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "country": "India",
+        "pincode": ""
+      },
+      "paymentTerms": "Due on Receipt",
+      "deliveryMethod": "Standard Delivery",
+      "salesperson": "",
+      "placeOfSupply": "",
+      "items": [
+        {
+          "id": "1",
+          "itemId": "1768892876560",
+          "name": "Keyboard",
+          "description": "keyboard at 3k",
+          "hsnSac": "1009",
+          "quantity": 1,
+          "unit": "pcs",
+          "rate": 3000,
+          "discount": 0,
+          "discountType": "percentage",
+          "tax": 0,
+          "taxName": "none",
+          "amount": 3000,
+          "ordered": 1,
+          "invoicedQty": 0,
+          "invoiceStatus": "Not Invoiced"
+        }
+      ],
+      "subTotal": 3000,
+      "shippingCharges": 0,
+      "tdsType": "",
+      "tdsAmount": 0,
+      "cgst": 0,
+      "sgst": 0,
+      "igst": 0,
+      "adjustment": 0,
+      "total": 3000,
+      "customerNotes": "Looking forward to your business.",
+      "termsAndConditions": "",
+      "orderStatus": "Confirmed",
+      "invoiceStatus": "Not Invoiced",
+      "paymentStatus": "Unpaid",
+      "shipmentStatus": "Pending",
+      "invoices": [],
+      "pdfTemplate": "Standard Template",
+      "createdAt": "2026-01-28T10:11:33.886Z",
+      "updatedAt": "2026-01-28T10:11:33.886Z",
+      "createdBy": "Admin User",
+      "activityLogs": [
+        {
+          "id": "1",
+          "timestamp": "2026-01-28T10:11:33.886Z",
+          "action": "created",
+          "description": "Sales Order created for ₹3,000",
+          "user": "Admin User"
+        }
+      ]
+    },
+    {
+      "id": "1769504537700",
+      "organizationId": "1",
+      "salesOrderNumber": "SO-00019",
+      "referenceNumber": "1234",
+      "date": "2026-01-27",
+      "expectedShipmentDate": "2026-01-27",
+      "customerId": "19",
+      "customerName": "Mr. prajwal kadam",
+      "billingAddress": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "country": "India",
+        "pincode": ""
+      },
+      "shippingAddress": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "country": "India",
+        "pincode": ""
+      },
+      "paymentTerms": "Net 15",
+      "deliveryMethod": "Express Delivery",
+      "salesperson": "afshjd",
+      "placeOfSupply": "gujarat",
+      "items": [
+        {
+          "id": "1",
+          "itemId": "1768892876560",
+          "name": "Keyboard",
+          "description": "keyboard at 3k",
+          "hsnSac": "1009",
+          "quantity": 2,
+          "unit": "pcs",
+          "rate": 3000,
+          "discount": 0,
+          "discountType": "percentage",
+          "tax": 12,
+          "taxName": "GST12",
+          "amount": 6000,
+          "ordered": 1,
+          "invoicedQty": 0,
+          "invoiceStatus": "Not Invoiced"
+        }
+      ],
+      "subTotal": 6000,
+      "shippingCharges": 0,
+      "tdsType": "",
+      "tdsAmount": 0,
+      "cgst": 360,
+      "sgst": 360,
+      "igst": 0,
+      "adjustment": 0,
+      "total": 6720,
+      "customerNotes": "Looking forward to your business.ok",
+      "termsAndConditions": "ok",
+      "orderStatus": "Confirmed",
+      "invoiceStatus": "Not Invoiced",
+      "paymentStatus": "Unpaid",
+      "shipmentStatus": "Pending",
+      "invoices": [],
+      "pdfTemplate": "Standard Template",
+      "createdAt": "2026-01-27T09:02:17.700Z",
+      "updatedAt": "2026-01-27T09:03:04.799Z",
+      "createdBy": "Admin User",
+      "activityLogs": [
+        {
+          "id": "1",
+          "timestamp": "2026-01-27T09:02:17.700Z",
+          "action": "created",
+          "description": "Sales Order created for ₹3,000",
+          "user": "Admin User"
+        },
+        {
+          "id": "2",
+          "timestamp": "2026-01-27T09:03:04.799Z",
+          "action": "updated",
+          "description": "Sales Order has been updated",
+          "user": "Admin User"
+        }
+      ]
+    }
+  ],
+  "nextSalesOrderNumber": 21,
+  "nextInvoiceNumber": 26
+}
