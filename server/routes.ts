@@ -12,8 +12,8 @@ import { EmailTriggerService } from "./src/services/emailTriggerService";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const DATA_DIR = path.join(__dirname, "data");
-const UPLOADS_DIR = path.join(__dirname, "uploads");
+const DATA_DIR = path.resolve(process.cwd(), "server", "data");
+const UPLOADS_DIR = path.resolve(process.cwd(), "server", "uploads");
 const BILL_ATTACHMENTS_DIR = path.join(UPLOADS_DIR, "bill-attachments");
 const VENDOR_CREDIT_ATTACHMENTS_DIR = path.join(UPLOADS_DIR, "vendor-credit-attachments");
 const PAYMENT_ATTACHMENTS_DIR = path.join(UPLOADS_DIR, "payment-attachments");
