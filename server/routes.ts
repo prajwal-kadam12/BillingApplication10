@@ -12,11 +12,51 @@ import { EmailTriggerService } from "./src/services/emailTriggerService";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const DATA_DIR = path.resolve(process.cwd(), "server", "data");
+const SEED_DATA_DIR = path.resolve(process.cwd(), "server", "data");
 const UPLOADS_DIR = path.resolve(process.cwd(), "server", "uploads");
+
+let DATA_DIR = SEED_DATA_DIR;
+// On Render, we use a separate directory for the persistent disk
+if (process.env.NODE_ENV === "production" && !process.env.REPL_ID) {
+  DATA_DIR = "/var/lib/billing-app/data";
+}
+
 const BILL_ATTACHMENTS_DIR = path.join(UPLOADS_DIR, "bill-attachments");
 const VENDOR_CREDIT_ATTACHMENTS_DIR = path.join(UPLOADS_DIR, "vendor-credit-attachments");
 const PAYMENT_ATTACHMENTS_DIR = path.join(UPLOADS_DIR, "payment-attachments");
+
+// Function to seed data from the repository to the persistent disk on first run
+function seedData() {
+  if (process.env.NODE_ENV !== "production" || process.env.REPL_ID) return;
+
+  try {
+    if (!fs.existsSync(DATA_DIR)) {
+      console.log(`Creating persistent data directory: ${DATA_DIR}`);
+      fs.mkdirSync(DATA_DIR, { recursive: true });
+    }
+
+    if (fs.existsSync(SEED_DATA_DIR)) {
+      const files = fs.readdirSync(SEED_DATA_DIR);
+      files.forEach(file => {
+        if (file.endsWith('.json')) {
+          const srcPath = path.join(SEED_DATA_DIR, file);
+          const destPath = path.join(DATA_DIR, file);
+
+          // Seed the file if it doesn't exist in the persistent storage
+          if (!fs.existsSync(destPath)) {
+            console.log(`Seeding data file to production disk: ${file}`);
+            fs.copyFileSync(srcPath, destPath);
+          }
+        }
+      });
+    }
+  } catch (error) {
+    console.error("Failed to seed data:", error);
+  }
+}
+
+// Run seeding
+seedData();
 
 // Ensure directories exist
 [DATA_DIR, UPLOADS_DIR, BILL_ATTACHMENTS_DIR, VENDOR_CREDIT_ATTACHMENTS_DIR, PAYMENT_ATTACHMENTS_DIR].forEach(dir => {

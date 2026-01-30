@@ -9,5 +9,5 @@ services:
         value: production
     disk:
       name: billing-data
-      mountPath: /opt/render/project/src/server/data
+      mountPath: /var/lib/billing-app/data
       sizeGB: 1
