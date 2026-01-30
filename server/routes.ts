@@ -9,9 +9,6 @@ import multer from "multer";
 import { randomUUID } from "crypto";
 import { EmailTriggerService } from "./src/services/emailTriggerService";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
 const DATA_DIR = path.resolve(process.cwd(), "server", "data");
 const UPLOADS_DIR = path.resolve(process.cwd(), "server", "uploads");
 

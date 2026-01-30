@@ -9,11 +9,7 @@ import * as path from 'path';
 import { fileURLToPath } from 'url';
 import { randomUUID } from 'crypto';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
-// Data directory is expected to be in server/data
-const DATA_DIR = path.join(__dirname, '..', '..', 'data');
+const DATA_DIR = path.resolve(process.cwd(), 'server', 'data');
 
 const EMAIL_TRIGGERS_FILE = path.join(DATA_DIR, 'emailTriggers.json');
 const EMAIL_AUDITS_FILE = path.join(DATA_DIR, 'emailAudits.json');

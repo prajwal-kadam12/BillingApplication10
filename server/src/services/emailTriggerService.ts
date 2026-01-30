@@ -12,9 +12,7 @@ import * as path from 'path';
 import { fileURLToPath } from 'url';
 import crypto from 'crypto';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-const DATA_DIR = path.join(__dirname, '..', '..', 'data');
+const DATA_DIR = path.resolve(process.cwd(), 'server', 'data');
 
 // Helper to read core data from JSON
 function readCoreData(filename: string, key: string) {
