@@ -1,0 +1,393 @@
+{
+  "bills": [
+    {
+      "id": "1770366574889",
+      "organizationId": "1",
+      "billNumber": "9",
+      "purchaseOrderId": "1770366491443",
+      "orderNumber": "PO-2025-0006",
+      "vendorId": "1",
+      "vendorName": "Prajwal Kadam",
+      "vendorAddress": {},
+      "billDate": "2026-02-06",
+      "dueDate": "2026-02-06",
+      "paymentTerms": "Net 45",
+      "reverseCharge": false,
+      "subject": "Bill for PO# PO-2025-0006",
+      "items": [
+        {
+          "id": "1",
+          "itemId": "1770351067854",
+          "itemName": "Tab",
+          "description": "ok",
+          "account": "input_tax_credits",
+          "quantity": 1,
+          "rate": 15000,
+          "tax": "gst_18",
+          "taxAmount": 2700,
+          "amount": 17700
+        }
+      ],
+      "subTotal": 15000,
+      "discountType": "percent",
+      "discountValue": 0,
+      "discountAmount": 0,
+      "taxType": "TDS",
+      "taxCategory": "none",
+      "taxAmount": 2700,
+      "adjustment": 0,
+      "adjustmentDescription": "",
+      "total": 17700,
+      "amountPaid": 17700,
+      "balanceDue": 17700,
+      "notes": "",
+      "attachments": [],
+      "status": "PAID",
+      "pdfTemplate": "Standard Template",
+      "createdAt": "2026-02-06T08:29:34.887Z",
+      "updatedAt": "2026-02-09T08:21:32.801Z",
+      "createdBy": "Admin User",
+      "activityLogs": [
+        {
+          "id": "1",
+          "timestamp": "2026-02-06T08:29:34.887Z",
+          "action": "created",
+          "description": "Bill created from Purchase Order PO# PO-2025-0006",
+          "user": "Admin User"
+        },
+        {
+          "id": "2",
+          "timestamp": "2026-02-06T08:29:43.033Z",
+          "action": "updated",
+          "description": "Bill updated. New total: ₹17700.00, Balance due: ₹17700.00",
+          "user": "Admin User"
+        },
+        {
+          "id": "3",
+          "timestamp": "2026-02-06T08:33:29.750Z",
+          "action": "payment",
+          "description": "Payment of ₹10,000 recorded",
+          "user": "Admin User"
+        },
+        {
+          "id": "4",
+          "timestamp": "2026-02-06T08:33:45.159Z",
+          "action": "credit_applied",
+          "description": "Vendor Credit VC-00021 applied: ₹7000.00",
+          "user": "Admin User"
+        },
+        {
+          "id": "5",
+          "timestamp": "2026-02-09T05:33:41.981Z",
+          "action": "payment",
+          "description": "Payment of ₹100 recorded",
+          "user": "Admin User"
+        },
+        {
+          "id": "6",
+          "timestamp": "2026-02-09T05:40:13.204Z",
+          "action": "credit_applied",
+          "description": "Vendor Credit VC-00021 applied: ₹600.00",
+          "user": "Admin User"
+        }
+      ],
+      "tcsType": "TCS",
+      "tcsCategory": "none",
+      "tcsValue": 0,
+      "tdsValue": 0,
+      "tcsAmount": 0,
+      "tdsAmount": 0,
+      "paymentsRecorded": [
+        {
+          "paymentId": "direct-1770366809750",
+          "paymentNumber": "PM-00080",
+          "amount": 10000,
+          "date": "2026-02-06",
+          "mode": "Cash"
+        },
+        {
+          "paymentId": "direct-1770615221981",
+          "paymentNumber": "PM-00081",
+          "amount": 100,
+          "date": "2026-02-09",
+          "mode": "Cash"
+        }
+      ],
+      "creditsApplied": [
+        {
+          "creditId": "vc-1770354219006",
+          "creditNumber": "VC-00021",
+          "amount": 7000,
+          "appliedDate": "2026-02-06"
+        },
+        {
+          "creditId": "vc-1770354219006",
+          "creditNumber": "VC-00021",
+          "amount": 600,
+          "appliedDate": "2026-02-09"
+        }
+      ]
+    },
+    {
+      "id": "1770366540695",
+      "organizationId": "1",
+      "billNumber": "8",
+      "orderNumber": "123",
+      "vendorId": "1",
+      "vendorName": "Prajwal Kadam",
+      "vendorAddress": {
+        "street1": "Balewadi, Pune",
+        "street2": "Balewadi, Pune",
+        "city": "Pune",
+        "state": "[MH] - Maharashtra",
+        "pinCode": "413104",
+        "country": "India",
+        "gstin": ""
+      },
+      "billDate": "2026-02-06",
+      "dueDate": "2026-02-06",
+      "paymentTerms": "Due on Receipt",
+      "reverseCharge": true,
+      "subject": "ok fine",
+      "items": [
+        {
+          "id": "1770366512475",
+          "itemName": "Tab",
+          "description": "ok",
+          "account": "input_tax_credits",
+          "quantity": 3,
+          "rate": 15000,
+          "tax": "",
+          "taxAmount": 0,
+          "customerDetails": "none",
+          "amount": 45000
+        }
+      ],
+      "subTotal": 45000,
+      "discountType": "percent",
+      "discountValue": 0,
+      "discountAmount": 0,
+      "taxType": "TDS",
+      "taxCategory": "none",
+      "taxAmount": 0,
+      "adjustment": 0,
+      "adjustmentDescription": "",
+      "total": 45000,
+      "amountPaid": 0,
+      "balanceDue": 15000,
+      "notes": "",
+      "attachments": [],
+      "status": "OPEN",
+      "pdfTemplate": "Standard Template",
+      "journalEntries": [],
+      "createdAt": "2026-02-06T08:29:00.695Z",
+      "updatedAt": "2026-02-09T08:21:32.801Z",
+      "createdBy": "Admin User",
+      "activityLogs": [
+        {
+          "id": "1",
+          "timestamp": "2026-02-06T08:29:00.695Z",
+          "action": "created",
+          "description": "Bill created for ₹45,000",
+          "user": "Admin User"
+        }
+      ]
+    },
+    {
+      "id": "1770359742469",
+      "organizationId": "1",
+      "billNumber": "6",
+      "purchaseOrderId": "1770359662664",
+      "orderNumber": "PO-2025-0004",
+      "vendorId": "1",
+      "vendorName": "Prajwal Kadam",
+      "vendorAddress": {},
+      "billDate": "2026-02-06",
+      "dueDate": "2026-02-06",
+      "paymentTerms": "Due on Receipt",
+      "reverseCharge": false,
+      "subject": "Bill for PO# PO-2025-0004",
+      "items": [
+        {
+          "id": "1",
+          "itemId": "1770351067854",
+          "itemName": "Tab",
+          "description": "ok",
+          "account": "input_tax_credits",
+          "quantity": 1,
+          "rate": 15000,
+          "tax": "IGST18",
+          "taxAmount": 3186,
+          "amount": 17700
+        }
+      ],
+      "subTotal": 15000,
+      "discountType": "percent",
+      "discountValue": 0,
+      "discountAmount": 0,
+      "taxType": "TDS",
+      "taxCategory": "none",
+      "taxAmount": 3186,
+      "adjustment": 0,
+      "adjustmentDescription": "",
+      "total": 18186,
+      "amountPaid": 13700,
+      "balanceDue": 4486,
+      "notes": "",
+      "attachments": [],
+      "status": "PARTIALLY_PAID",
+      "pdfTemplate": "Standard Template",
+      "createdAt": "2026-02-06T06:35:42.467Z",
+      "updatedAt": "2026-02-09T08:21:32.801Z",
+      "createdBy": "Admin User",
+      "activityLogs": [
+        {
+          "id": "1",
+          "timestamp": "2026-02-06T06:35:42.467Z",
+          "action": "created",
+          "description": "Bill created from Purchase Order PO# PO-2025-0004",
+          "user": "Admin User"
+        },
+        {
+          "id": "2",
+          "timestamp": "2026-02-06T06:35:45.887Z",
+          "action": "updated",
+          "description": "Bill updated. New total: ₹17700.00, Balance due: ₹17700.00",
+          "user": "Admin User"
+        },
+        {
+          "id": "3",
+          "timestamp": "2026-02-06T06:37:06.862Z",
+          "action": "payment",
+          "description": "Payment of ₹7,700 recorded",
+          "user": "Admin User"
+        },
+        {
+          "id": "4",
+          "timestamp": "2026-02-06T06:43:17.995Z",
+          "action": "credit_applied",
+          "description": "Vendor Credit VC-00021 applied: ₹5000.00",
+          "user": "Admin User"
+        },
+        {
+          "id": "5",
+          "timestamp": "2026-02-06T06:59:13.982Z",
+          "action": "credit_applied",
+          "description": "Vendor Credit VC-00021 applied: ₹1000.00",
+          "user": "Admin User"
+        },
+        {
+          "id": "6",
+          "timestamp": "2026-02-06T08:18:19.731Z",
+          "action": "updated",
+          "description": "Bill updated. New total: ₹18186.00, Balance due: ₹4486.00",
+          "user": "Admin User"
+        }
+      ],
+      "tcsType": "TCS",
+      "tcsCategory": "none",
+      "tcsValue": 0,
+      "tdsValue": 0,
+      "tcsAmount": 0,
+      "tdsAmount": 0,
+      "paymentsRecorded": [
+        {
+          "paymentId": "direct-1770359826862",
+          "paymentNumber": "PM-00079",
+          "amount": 7700,
+          "date": "2026-02-06",
+          "mode": "Cash"
+        }
+      ],
+      "creditsApplied": [
+        {
+          "creditId": "vc-1770354219006",
+          "creditNumber": "VC-00021",
+          "amount": 5000,
+          "appliedDate": "2026-02-06"
+        },
+        {
+          "creditId": "vc-1770354219006",
+          "creditNumber": "VC-00021",
+          "amount": 1000,
+          "appliedDate": "2026-02-06"
+        }
+      ]
+    }
+  ],
+  "nextBillNumber": 11,
+  "accounts": [
+    {
+      "id": "1",
+      "name": "Cost of Goods Sold",
+      "type": "expense"
+    },
+    {
+      "id": "2",
+      "name": "Office Supplies",
+      "type": "expense"
+    },
+    {
+      "id": "3",
+      "name": "Software",
+      "type": "expense"
+    },
+    {
+      "id": "4",
+      "name": "Professional Services",
+      "type": "expense"
+    },
+    {
+      "id": "5",
+      "name": "Utilities",
+      "type": "expense"
+    },
+    {
+      "id": "6",
+      "name": "Rent",
+      "type": "expense"
+    },
+    {
+      "id": "7",
+      "name": "Travel Expense",
+      "type": "expense"
+    },
+    {
+      "id": "8",
+      "name": "Marketing",
+      "type": "expense"
+    }
+  ],
+  "taxes": [
+    {
+      "id": "1",
+      "name": "IGST18",
+      "rate": 18
+    },
+    {
+      "id": "2",
+      "name": "CGST9",
+      "rate": 9
+    },
+    {
+      "id": "3",
+      "name": "SGST9",
+      "rate": 9
+    },
+    {
+      "id": "4",
+      "name": "GST5",
+      "rate": 5
+    },
+    {
+      "id": "5",
+      "name": "GST12",
+      "rate": 12
+    },
+    {
+      "id": "6",
+      "name": "GST28",
+      "rate": 28
+    }
+  ]
+}

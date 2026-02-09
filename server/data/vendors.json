@@ -1,0 +1,87 @@
+{
+  "vendors": [
+    {
+      "id": "1",
+      "organizationId": "1",
+      "salutation": "Mr.",
+      "firstName": "Prajwal",
+      "lastName": "Kadam",
+      "companyName": "CybaemTech ",
+      "displayName": "Prajwal Kadam",
+      "email": "kadamprajwal358@gmail.com",
+      "workPhone": "09699720434",
+      "mobile": "09699720434",
+      "gstTreatment": "Registered Business - Regular",
+      "sourceOfSupply": "[MH] - Maharashtra",
+      "pan": "",
+      "expenseAccount": "Input Tax Credits",
+      "msmeRegistered": false,
+      "msmeRegistrationType": "",
+      "msmeRegistrationNumber": "",
+      "currency": "INR",
+      "openingBalance": 1000,
+      "paymentTerms": "Net 15",
+      "tds": "commission-brokerage-2",
+      "billingAddress": {
+        "attention": "SopanBagh Balewadi",
+        "countryRegion": "India",
+        "street1": "Balewadi, Pune",
+        "street2": "Balewadi, Pune",
+        "city": "Pune",
+        "state": "[MH] - Maharashtra",
+        "pinCode": "413104",
+        "phone": "09699720434",
+        "faxNumber": "1234"
+      },
+      "shippingAddress": {
+        "attention": "SopanBagh Balewadi",
+        "countryRegion": "India",
+        "street1": "Balewadi, Pune",
+        "street2": "Balewadi, Pune",
+        "city": "Pune",
+        "state": "[MH] - Maharashtra",
+        "pinCode": "413104",
+        "phone": "09699720434",
+        "faxNumber": "1234"
+      },
+      "bankDetails": {
+        "accountHolderName": "",
+        "bankName": "",
+        "accountNumber": "",
+        "ifscCode": "",
+        "swiftCode": "",
+        "branchName": ""
+      },
+      "isCrm": true,
+      "isPortalEnabled": false,
+      "remarks": "Great Work",
+      "contactPersons": [
+        {
+          "id": "1770350852597",
+          "salutation": "Mr.",
+          "firstName": "Nilraj",
+          "lastName": "Bhilare ",
+          "email": "BhilareNilraj@gmai.com",
+          "workPhone": "1234567890",
+          "mobile": "1122334455"
+        }
+      ],
+      "status": "active",
+      "payables": 0,
+      "unusedCredits": 0,
+      "createdAt": "2026-02-06T04:08:26.338Z",
+      "updatedAt": "2026-02-06T04:08:26.338Z"
+    },
+    {
+      "id": "2",
+      "organizationId": "1",
+      "name": "Test Vendor Balance 1770617729100",
+      "status": "active",
+      "balanceToPay": 0,
+      "unusedCredits": 0,
+      "createdAt": "2026-02-09T06:15:29.301Z",
+      "updatedAt": "2026-02-09T06:15:29.302Z"
+    }
+  ],
+  "nextVendorId": 3
+}

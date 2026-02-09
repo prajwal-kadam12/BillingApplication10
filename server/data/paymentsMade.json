@@ -1,0 +1,134 @@
+{
+  "paymentsMade": [
+    {
+      "id": "pm-1770359826886",
+      "paymentNumber": "PM-00079",
+      "vendorId": "1",
+      "vendorName": "Prajwal Kadam",
+      "gstTreatment": "",
+      "sourceOfSupply": "",
+      "destinationOfSupply": "",
+      "descriptionOfSupply": "",
+      "paymentAmount": 7700,
+      "reverseCharge": false,
+      "tds": "",
+      "paymentDate": "2026-02-06",
+      "paymentMode": "Cash",
+      "paidThrough": "Bank Account",
+      "depositTo": "prepaid_expenses",
+      "reference": "1234",
+      "notes": "done",
+      "billPayments": {
+        "1770359742469": {
+          "billId": "1770359742469",
+          "billNumber": "6",
+          "billAmount": 17700,
+          "amountPaid": 7700,
+          "paymentAmount": 7700
+        }
+      },
+      "paymentType": "bill_payment",
+      "paymentSource": "record_payment",
+      "status": "PAID",
+      "createdAt": "2026-02-06T06:37:06.862Z",
+      "updatedAt": "2026-02-06T06:37:06.862Z"
+    },
+    {
+      "id": "pm-1770366809752",
+      "paymentNumber": "PM-00080",
+      "vendorId": "1",
+      "vendorName": "Prajwal Kadam",
+      "gstTreatment": "",
+      "sourceOfSupply": "",
+      "destinationOfSupply": "",
+      "descriptionOfSupply": "",
+      "paymentAmount": 10000,
+      "reverseCharge": false,
+      "tds": "",
+      "paymentDate": "2026-02-06",
+      "paymentMode": "Cash",
+      "paidThrough": "Petty Cash",
+      "depositTo": "prepaid_expenses",
+      "reference": "",
+      "notes": "Payment for Bill #9",
+      "billPayments": {
+        "1770366574889": {
+          "billId": "1770366574889",
+          "billNumber": "9",
+          "billAmount": 17700,
+          "amountPaid": 10000
+        }
+      },
+      "paymentType": "bill_payment",
+      "paymentSource": "record_payment",
+      "status": "PAID",
+      "createdAt": "2026-02-06T08:33:29.750Z",
+      "updatedAt": "2026-02-06T08:33:29.750Z"
+    },
+    {
+      "id": "pm-1770615222008",
+      "paymentNumber": "PM-00081",
+      "vendorId": "1",
+      "vendorName": "Prajwal Kadam",
+      "gstTreatment": "",
+      "sourceOfSupply": "",
+      "destinationOfSupply": "",
+      "descriptionOfSupply": "",
+      "paymentAmount": 100,
+      "reverseCharge": false,
+      "tds": "",
+      "paymentDate": "2026-02-09",
+      "paymentMode": "Cash",
+      "paidThrough": "Petty Cash",
+      "depositTo": "prepaid_expenses",
+      "reference": "",
+      "notes": "Payment for Bill #9",
+      "billPayments": {
+        "1770366574889": {
+          "billId": "1770366574889",
+          "billNumber": "9",
+          "billAmount": 17700,
+          "amountPaid": 100
+        }
+      },
+      "paymentType": "bill_payment",
+      "paymentSource": "record_payment",
+      "status": "PAID",
+      "createdAt": "2026-02-09T05:33:41.981Z",
+      "updatedAt": "2026-02-09T05:33:41.981Z"
+    },
+    {
+      "id": "pm-1770617729403",
+      "organizationId": "1",
+      "paymentNumber": "PM-00082",
+      "vendorId": "2",
+      "gstTreatment": "",
+      "sourceOfSupply": "",
+      "destinationOfSupply": "",
+      "descriptionOfSupply": "",
+      "paymentAmount": 800,
+      "reverseCharge": false,
+      "tds": "",
+      "paymentDate": "2026-02-09",
+      "paymentMode": "Cash",
+      "paidThrough": "Petty Cash",
+      "depositTo": "prepaid_expenses",
+      "reference": "",
+      "notes": "",
+      "billPayments": {
+        "1770617729355": {
+          "billId": "1770617729355",
+          "billNumber": "BILL-1770617729335",
+          "billAmount": 1000,
+          "amountPaid": 800,
+          "paymentAmount": 800
+        }
+      },
+      "paymentType": "bill_payment",
+      "status": "PAID",
+      "createdAt": "2026-02-09T06:15:29.403Z",
+      "updatedAt": "2026-02-09T06:15:29.458Z"
+    }
+  ],
+  "nextPaymentNumber": 83
+}

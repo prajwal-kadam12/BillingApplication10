@@ -1,0 +1,17 @@
+{
+  "audits": [
+    {
+      "id": "5c7bda4c-ec2a-49ab-bfac-8c0e746ce1f1",
+      "triggerId": "1c1a9daa-526e-4783-8c13-52245e9f6964",
+      "toAddresses": "[\"Sujay.Palande@cybaemtech.com\"]",
+      "subject": "Welcome to Cybaem Tech",
+      "status": "sent",
+      "attempts": 0,
+      "createdAt": "2026-02-06T08:27:05.842Z",
+      "updatedAt": "2026-02-06T08:27:05.862Z",
+      "sentAt": "2026-02-06T08:27:05.861Z",
+      "providerMessageId": "mock-1770366425856-m90lrgm",
+      "providerResponse": "\"250 2.0.0 OK (Mock)\""
+    }
+  ]
+}

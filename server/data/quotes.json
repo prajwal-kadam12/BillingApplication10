@@ -1,0 +1,92 @@
+{
+  "quotes": [
+    {
+      "id": "1770367332795",
+      "quoteNumber": "QT-000001",
+      "referenceNumber": "123",
+      "date": "2026-02-06",
+      "expiryDate": "2026-02-06",
+      "customerId": "1",
+      "customerName": "Mr. Sujay Palande",
+      "billingAddress": {
+        "street": "Hinjewadi  pune",
+        "city": "pune",
+        "state": "maharasta ",
+        "country": "India",
+        "pincode": "413104"
+      },
+      "shippingAddress": {
+        "street": "Hinjewadi  pune",
+        "city": "pune",
+        "state": "maharasta ",
+        "country": "India",
+        "pincode": "413104"
+      },
+      "salesperson": "Sujay",
+      "projectName": "",
+      "subject": "ok ",
+      "placeOfSupply": "",
+      "pdfTemplate": "Standard Template",
+      "items": [
+        {
+          "id": "1",
+          "itemId": "1770351067854",
+          "name": "Tab",
+          "description": "ok",
+          "quantity": 1,
+          "unit": "",
+          "rate": 15000,
+          "discount": 0,
+          "discountType": "percentage",
+          "tax": 5,
+          "taxName": "GST5",
+          "amount": 15000
+        }
+      ],
+      "subTotal": 15000,
+      "shippingCharges": 0,
+      "tdsType": "",
+      "tdsAmount": 0,
+      "cgst": 375,
+      "sgst": 375,
+      "igst": 0,
+      "adjustment": 0,
+      "total": 15750,
+      "customerNotes": "",
+      "termsAndConditions": "",
+      "status": "CONVERTED",
+      "emailRecipients": [],
+      "createdAt": "2026-02-06T08:42:12.794Z",
+      "updatedAt": "2026-02-06T08:43:02.965Z",
+      "createdBy": "Admin User",
+      "activityLogs": [
+        {
+          "id": "1",
+          "timestamp": "2026-02-06T08:42:12.794Z",
+          "action": "created",
+          "description": "Quote created for ₹15,750",
+          "user": "Admin User"
+        },
+        {
+          "id": "2",
+          "timestamp": "2026-02-06T08:42:52.773Z",
+          "action": "updated",
+          "description": "Quote has been updated",
+          "user": "Admin User"
+        },
+        {
+          "id": "3",
+          "timestamp": "2026-02-06T08:43:02.965Z",
+          "action": "converted",
+          "description": "Converted to Sales Order SO-00001",
+          "user": "Admin User",
+          "link": "/sales-orders/1770367382966"
+        }
+      ],
+      "updatedBy": "Admin User",
+      "attachments": [],
+      "convertedTo": "sales-order"
+    }
+  ],
+  "nextQuoteNumber": 2
+}

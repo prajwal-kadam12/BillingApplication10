@@ -1,0 +1,113 @@
+{
+  "paymentsReceived": [
+    {
+      "id": "pr-1770367792075",
+      "paymentNumber": "85",
+      "date": "2026-02-06",
+      "referenceNumber": "",
+      "customerId": "1",
+      "customerName": "Mr. Sujay Palande",
+      "customerEmail": "",
+      "invoices": [
+        {
+          "invoiceId": "1770367578832",
+          "invoiceNumber": "INV-00002",
+          "invoiceDate": "2026-02-06",
+          "invoiceAmount": 17700,
+          "amountDue": 17700,
+          "paymentAmount": 17700
+        }
+      ],
+      "mode": "cash",
+      "depositTo": "Petty Cash",
+      "amount": 20000,
+      "unusedAmount": 2300,
+      "bankCharges": 0,
+      "tax": "",
+      "taxAmount": 0,
+      "notes": "Payment for INV-00002",
+      "attachments": [],
+      "sendThankYou": false,
+      "status": "PAID",
+      "paymentType": "invoice_payment",
+      "placeOfSupply": "27 - Maharashtra",
+      "descriptionOfSupply": "",
+      "amountInWords": "Indian Rupee Twenty Thousand Only",
+      "journalEntries": [],
+      "createdAt": "2026-02-06T08:49:52.073Z"
+    },
+    {
+      "id": "pr-1770622048844",
+      "paymentNumber": "86",
+      "date": "2026-02-09",
+      "referenceNumber": "",
+      "customerId": "1",
+      "customerName": "Mr. Sujay Palande",
+      "customerEmail": "",
+      "invoices": [
+        {
+          "invoiceId": "1770367532995",
+          "invoiceNumber": "INV-00001",
+          "invoiceDate": "2026-02-06",
+          "invoiceAmount": 15000,
+          "amountDue": 15000,
+          "paymentAmount": 1000
+        }
+      ],
+      "mode": "cash",
+      "depositTo": "Petty Cash",
+      "amount": 1000,
+      "unusedAmount": 0,
+      "bankCharges": 0,
+      "tax": "",
+      "taxAmount": 0,
+      "notes": "Payment for INV-00001",
+      "attachments": [],
+      "sendThankYou": false,
+      "status": "PAID",
+      "paymentType": "invoice_payment",
+      "placeOfSupply": "",
+      "descriptionOfSupply": "",
+      "amountInWords": "Indian Rupee One Thousand Only",
+      "journalEntries": [],
+      "createdAt": "2026-02-09T07:27:28.784Z"
+    },
+    {
+      "id": "pr-1770622063895",
+      "paymentNumber": "87",
+      "date": "2026-02-09",
+      "referenceNumber": "",
+      "customerId": "1",
+      "customerName": "Mr. Sujay Palande",
+      "customerEmail": "",
+      "invoices": [
+        {
+          "invoiceId": "1770367532995",
+          "invoiceNumber": "INV-00001",
+          "invoiceDate": "2026-02-06",
+          "invoiceAmount": 15000,
+          "amountDue": 14000,
+          "paymentAmount": 1000
+        }
+      ],
+      "mode": "cash",
+      "depositTo": "Petty Cash",
+      "amount": 1000,
+      "unusedAmount": 0,
+      "bankCharges": 0,
+      "tax": "",
+      "taxAmount": 0,
+      "notes": "Payment for INV-00001",
+      "attachments": [],
+      "sendThankYou": false,
+      "status": "PAID",
+      "paymentType": "invoice_payment",
+      "placeOfSupply": "",
+      "descriptionOfSupply": "",
+      "amountInWords": "Indian Rupee One Thousand Only",
+      "journalEntries": [],
+      "createdAt": "2026-02-09T07:27:43.888Z"
+    }
+  ],
+  "nextPaymentNumber": 88
+}

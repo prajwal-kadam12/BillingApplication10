@@ -1,0 +1,200 @@
+{
+  "invoices": [
+    {
+      "id": "1770367578832",
+      "organizationId": "1",
+      "invoiceNumber": "INV-00002",
+      "referenceNumber": "",
+      "date": "2026-02-06",
+      "dueDate": "2026-03-08",
+      "customerId": "1",
+      "customerName": "Mr. Sujay Palande",
+      "billingAddress": {
+        "street": "Hinjewadi  pune",
+        "city": "pune",
+        "state": "maharasta ",
+        "country": "India",
+        "pincode": "413104"
+      },
+      "shippingAddress": {
+        "street": "Hinjewadi  pune",
+        "city": "pune",
+        "state": "maharasta ",
+        "country": "India",
+        "pincode": "413104"
+      },
+      "salesperson": "Sujay",
+      "placeOfSupply": "27 - Maharashtra",
+      "paymentTerms": "Net 30",
+      "items": [
+        {
+          "id": "0.7188949594961958",
+          "itemId": "0.7188949594961958",
+          "name": "Tab",
+          "description": "ok",
+          "quantity": 1,
+          "unit": "pcs",
+          "rate": 15000,
+          "discount": 0,
+          "discountType": "percentage",
+          "tax": 2700,
+          "taxName": "GST18",
+          "amount": 17700
+        }
+      ],
+      "subTotal": 15000,
+      "shippingCharges": 0,
+      "cgst": 1350,
+      "sgst": 1350,
+      "igst": 0,
+      "adjustment": 0,
+      "total": 17700,
+      "amountPaid": 17700,
+      "balanceDue": 0,
+      "customerNotes": "",
+      "termsAndConditions": "",
+      "status": "PAID",
+      "sourceType": null,
+      "sourceId": null,
+      "sourceNumber": null,
+      "pdfTemplate": "Standard Template",
+      "createdAt": "2026-02-06T08:46:18.832Z",
+      "updatedAt": "2026-02-06T08:49:52.073Z",
+      "createdBy": "Admin User",
+      "payments": [
+        {
+          "id": "1770367792073",
+          "date": "2026-02-06T08:49:00.000Z",
+          "amount": 20000,
+          "paymentMode": "cash",
+          "reference": "",
+          "notes": ""
+        }
+      ],
+      "activityLogs": [
+        {
+          "id": "1",
+          "timestamp": "2026-02-06T08:46:18.832Z",
+          "action": "created",
+          "description": "Invoice created for ₹17,700",
+          "user": "Admin User"
+        },
+        {
+          "id": "2",
+          "timestamp": "2026-02-06T08:49:52.073Z",
+          "action": "payment_recorded",
+          "description": "Payment of ₹20,000 recorded",
+          "user": "Admin User"
+        }
+      ]
+    },
+    {
+      "id": "1770367532995",
+      "organizationId": "1",
+      "invoiceNumber": "INV-00001",
+      "referenceNumber": "",
+      "date": "2026-02-06",
+      "dueDate": "2026-02-06",
+      "customerId": "1",
+      "customerName": "Mr. Sujay Palande",
+      "billingAddress": {
+        "street": "Hinjewadi  pune",
+        "city": "pune",
+        "state": "maharasta ",
+        "country": "India",
+        "pincode": "413104"
+      },
+      "shippingAddress": {
+        "street": "Hinjewadi  pune",
+        "city": "pune",
+        "state": "maharasta ",
+        "country": "India",
+        "pincode": "413104"
+      },
+      "salesperson": "",
+      "placeOfSupply": "",
+      "paymentTerms": "Net 15",
+      "items": [
+        {
+          "id": "1",
+          "itemId": "1770351067854",
+          "name": "Tab",
+          "description": "ok",
+          "hsnSac": "12312232",
+          "quantity": 1,
+          "unit": "pcs",
+          "rate": 15000,
+          "discount": 0,
+          "discountType": "percentage",
+          "tax": 0,
+          "taxName": "none",
+          "amount": 15000,
+          "ordered": 1,
+          "invoicedQty": 0,
+          "invoiceStatus": "Not Invoiced"
+        }
+      ],
+      "subTotal": 15000,
+      "shippingCharges": 0,
+      "cgst": 0,
+      "sgst": 0,
+      "igst": 0,
+      "adjustment": 0,
+      "total": 15000,
+      "amountPaid": 2000,
+      "balanceDue": 13000,
+      "customerNotes": "",
+      "termsAndConditions": "",
+      "status": "PARTIALLY_PAID",
+      "sourceType": "sales_order",
+      "sourceId": "1770367509328",
+      "sourceNumber": null,
+      "pdfTemplate": "Standard Template",
+      "createdAt": "2026-02-06T08:45:32.994Z",
+      "updatedAt": "2026-02-09T07:27:43.888Z",
+      "createdBy": "Admin User",
+      "payments": [
+        {
+          "id": "1770622048785",
+          "date": "2026-02-09T07:26:00.000Z",
+          "amount": 1000,
+          "paymentMode": "cash",
+          "reference": "",
+          "notes": ""
+        },
+        {
+          "id": "1770622063888",
+          "date": "2026-02-09T07:27:00.000Z",
+          "amount": 1000,
+          "paymentMode": "cash",
+          "reference": "",
+          "notes": ""
+        }
+      ],
+      "activityLogs": [
+        {
+          "id": "1",
+          "timestamp": "2026-02-06T08:45:32.994Z",
+          "action": "created",
+          "description": "Invoice created for ₹15,000",
+          "user": "Admin User"
+        },
+        {
+          "id": "2",
+          "timestamp": "2026-02-09T07:27:28.784Z",
+          "action": "payment_recorded",
+          "description": "Payment of ₹1,000 recorded",
+          "user": "Admin User"
+        },
+        {
+          "id": "3",
+          "timestamp": "2026-02-09T07:27:43.888Z",
+          "action": "payment_recorded",
+          "description": "Payment of ₹1,000 recorded",
+          "user": "Admin User"
+        }
+      ]
+    }
+  ],
+  "nextInvoiceNumber": 3
+}
