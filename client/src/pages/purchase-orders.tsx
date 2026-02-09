@@ -155,19 +155,24 @@ function PurchaseOrderPDFView({ purchaseOrder, branding, organization }: { purch
         }}
       >
         <div style={{ padding: '40px', position: 'relative' }}>
-          {/* Status Stamp */}
+          {/* Status Stamp - Moved to top-left corner and styled as requested */}
           {purchaseOrder.status?.toUpperCase() === 'ISSUED' && (
             <div
-              className="absolute top-48 left-1/2 -translate-x-1/2 -rotate-12 pointer-events-none z-10 opacity-[0.15]"
+              className="absolute pointer-events-none z-10"
               style={{
-                border: '12px solid #1d4ed8',
-                color: '#1d4ed8',
-                fontWeight: '900',
-                fontSize: '120px',
-                padding: '20px 60px',
-                borderRadius: '32px',
+                top: '20px',
+                left: '20px',
+                border: '4px solid #16a34a',
+                color: '#16a34a',
+                fontWeight: '800',
+                fontSize: '24px',
+                padding: '6px 16px',
+                borderRadius: '8px',
                 textTransform: 'uppercase',
-                letterSpacing: '-0.05em'
+                letterSpacing: '0.1em',
+                transform: 'rotate(-10deg)',
+                boxShadow: '0 0 0 2px #16a34a inset',
+                opacity: '0.8'
               }}
             >
               Issued
@@ -184,9 +189,9 @@ function PurchaseOrderPDFView({ purchaseOrder, branding, organization }: { purch
             organization={organization}
           />
 
-          {/* Vendor Section */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 mb-10" style={{ display: 'grid', marginBottom: '40px' }}>
-            <div style={{ borderLeft: '3px solid #f1f5f9', paddingLeft: '20px' }}>
+          {/* Vendor and Ship To Section */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 mb-10" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '40px', marginBottom: '40px' }}>
+            <div style={{ borderLeft: '3px solid #16a34a', paddingLeft: '20px' }}>
               <h4 style={{ fontSize: '11px', fontWeight: '800', color: '#64748b', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '12px', margin: '0 0 12px 0' }}>
                 VENDOR
               </h4>
@@ -195,10 +200,12 @@ function PurchaseOrderPDFView({ purchaseOrder, branding, organization }: { purch
               </p>
               <div style={{ fontSize: '13px', color: '#475569', lineHeight: '1.6' }}>
                 {purchaseOrder.vendorAddress?.street1 && <p style={{ margin: 0 }}>{purchaseOrder.vendorAddress.street1}</p>}
-                {purchaseOrder.vendorAddress?.city && <p style={{ margin: 0 }}>{purchaseOrder.vendorAddress.city}</p>}
-                <p style={{ margin: 0 }}>{purchaseOrder.vendorAddress?.pinCode || '411057'}, {purchaseOrder.vendorAddress?.state || 'Maharashtra'}</p>
-                <p style={{ margin: 0 }}>{purchaseOrder.vendorAddress?.countryRegion || 'India'}</p>
-                {purchaseOrder.vendorAddress?.gstin && <p style={{ margin: '4px 0 0 0', fontWeight: '600', color: '#991b1b' }}>GSTIN {purchaseOrder.vendorAddress.gstin}</p>}
+                {purchaseOrder.vendorAddress?.street2 && <p style={{ margin: 0 }}>{purchaseOrder.vendorAddress.street2}</p>}
+                <p style={{ margin: 0 }}>
+                  {[purchaseOrder.vendorAddress?.city, purchaseOrder.vendorAddress?.state, purchaseOrder.vendorAddress?.pinCode].filter(Boolean).join(', ')}
+                </p>
+                {purchaseOrder.vendorAddress?.countryRegion && <p style={{ margin: 0 }}>{purchaseOrder.vendorAddress.countryRegion}</p>}
+                {purchaseOrder.vendorAddress?.gstin && <p style={{ margin: '4px 0 0 0', fontWeight: '600', color: '#16a34a' }}>GSTIN {purchaseOrder.vendorAddress.gstin}</p>}
               </div>
             </div>
             <div style={{ borderLeft: '3px solid #f1f5f9', paddingLeft: '20px' }}>
@@ -209,7 +216,12 @@ function PurchaseOrderPDFView({ purchaseOrder, branding, organization }: { purch
                 {organization?.name || 'Your Company'}
               </p>
               <div style={{ fontSize: '13px', color: '#475569', lineHeight: '1.6' }}>
-                <p style={{ margin: '0' }}>{organization?.street1 || ''} {organization?.city || ''}</p>
+                {organization?.street1 && <p style={{ margin: 0 }}>{organization.street1}</p>}
+                {organization?.street2 && <p style={{ margin: 0 }}>{organization.street2}</p>}
+                <p style={{ margin: 0 }}>
+                  {[organization?.city, organization?.state, organization?.postalCode].filter(Boolean).join(', ')}
+                </p>
+                {organization?.location && <p style={{ margin: 0 }}>{organization.location}</p>}
               </div>
             </div>
           </div>

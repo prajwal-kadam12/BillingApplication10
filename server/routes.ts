@@ -3266,6 +3266,20 @@ export async function registerRoutes(
         if (sourceType === 'payment') {
           const paymentIndex = paymentsData.paymentsReceived.findIndex((p: any) => p.id === sourceId);
           paymentsData.paymentsReceived[paymentIndex].unusedAmount -= amountToApply;
+
+          // Record invoice in payment's invoices list
+          if (!paymentsData.paymentsReceived[paymentIndex].invoices) {
+            paymentsData.paymentsReceived[paymentIndex].invoices = [];
+          }
+          paymentsData.paymentsReceived[paymentIndex].invoices.push({
+            invoiceId: invoice.id,
+            invoiceNumber: invoice.invoiceNumber,
+            invoiceDate: invoice.date,
+            invoiceAmount: invoice.total,
+            amountDue: invoice.balanceDue,
+            paymentAmount: amountToApply
+          });
+
           updatedSources.push({
             sourceId,
             sourceType,
